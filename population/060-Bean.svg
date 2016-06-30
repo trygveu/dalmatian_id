@@ -3,12 +3,11 @@
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 
 <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
-  <circle cx="22" cy="72" r="6" fill="black"/>
-  <circle cx="14" cy="67" r="4" fill="black"/>
-  <circle cx="73" cy="87" r="1" fill="black"/>
-  <circle cx="8" cy="18" r="8" fill="black"/>
-  <circle cx="58" cy="58" r="1" fill="black"/>
-  <circle cx="12" cy="2" r="10" fill="black"/>
-  <circle cx="24" cy="78" r="2" fill="black"/>
-  <circle cx="22" cy="8" r="6" fill="black"/>
+  <circle cx="8" cy="46" r="2" fill="black"/>
+  <circle cx="26" cy="97" r="8" fill="black"/>
+  <circle cx="12" cy="25" r="4" fill="black"/>
+  <circle cx="14" cy="6" r="4" fill="black"/>
+  <circle cx="53" cy="4" r="10" fill="black"/>
+  <circle cx="66" cy="90" r="10" fill="black"/>
+  <circle cx="40" cy="83" r="4" fill="black"/>
 </svg>

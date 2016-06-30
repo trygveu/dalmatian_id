@@ -3,14 +3,9 @@
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 
 <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
-  <circle cx="2" cy="97" r="8" fill="black"/>
-  <circle cx="1" cy="11" r="1" fill="black"/>
-  <circle cx="99" cy="98" r="8" fill="black"/>
-  <circle cx="42" cy="97" r="10" fill="black"/>
-  <circle cx="31" cy="59" r="8" fill="black"/>
-  <circle cx="71" cy="70" r="8" fill="black"/>
-  <circle cx="64" cy="41" r="5" fill="black"/>
-  <circle cx="9" cy="2" r="9" fill="black"/>
-  <circle cx="53" cy="83" r="5" fill="black"/>
-  <circle cx="44" cy="72" r="1" fill="black"/>
+  <circle cx="6" cy="54" r="3" fill="black"/>
+  <circle cx="92" cy="39" r="9" fill="black"/>
+  <circle cx="50" cy="60" r="10" fill="black"/>
+  <circle cx="14" cy="60" r="5" fill="black"/>
+  <circle cx="42" cy="48" r="6" fill="black"/>
 </svg>
