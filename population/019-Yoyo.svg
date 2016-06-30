@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+  <circle cx="56" cy="74" r="7" fill="black"/>
+  <circle cx="56" cy="68" r="10" fill="black"/>
+  <circle cx="40" cy="94" r="10" fill="black"/>
+  <circle cx="37" cy="56" r="1" fill="black"/>
+  <circle cx="97" cy="77" r="10" fill="black"/>
+  <circle cx="7" cy="70" r="6" fill="black"/>
+</svg>
