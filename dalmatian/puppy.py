@@ -22,6 +22,7 @@ class Puppy(object):
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 
 <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+  <rect widht="100" height="100" fill="white" />
 """
         svg_file = open(filename, 'w')
         svg_file.write(xml_header)

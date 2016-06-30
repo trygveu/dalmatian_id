@@ -7,8 +7,8 @@ import errno
 def main():
     parser = argparse.ArgumentParser(description="Dalmation ID Problem"
                                      "Generates the puppy population")
-    names = open('../resources/dognames.txt', 'r')
-    path = '../population/'
+    names = open('./resources/dognames.txt', 'r')
+    path = './population/'
     try:
         os.makedirs(path)
     except OSError as exc:  # Python >2.5
