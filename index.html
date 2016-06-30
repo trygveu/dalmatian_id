@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Dalmatian by trygveu</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>Dalmatian</h1>
+          <h2>An example problem for individual identification and unsupervised clustering.</h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/trygveu/dalmatian_id/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/trygveu/dalmatian_id/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/trygveu/dalmatian_id" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <h1>
+<a id="101-dalmatian-id" class="anchor" href="#101-dalmatian-id" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>101 Dalmatian ID</h1>
+
+<p>After Roger and Anita decide to keep all the 101 dalmatians, they move to a house in the countryside. They soon realize that they need a system to make sure that all the puppies are healthy and develop as they should, and they contact you to help them design a novel health supervision system for dalmatians.</p>
+
+<p>The system will be installed in the kitchen door, and at every pass a camera takes a series of images of the passing puppy. The system monitors the health of each puppy, by estimating it's growth and it will also look for signs of injury. This will help Roger and Anita making sure that all the puppies are happy and healthy at any time.</p>
+
+<p>A requirement of this system, is that it needs to learn the spot pattern of each puppy, and adapt as the puppies grow. There is no prior data as none of the puppies have names yet - there's such a chaos that it will take Roger and Anita months to make all of them apart. We need to help them ;)</p>
+
+<h2>
+<a id="discussion" class="anchor" href="#discussion" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Discussion</h2>
+
+<p>This may sound like a constructed and corny problem. But it has in fact a very strong relevance to problems that we work with in Agricultural Robotics and with industry clients. We would like to have a case like this, to understand how you think and reason.</p>
+
+<p>Depending on your specialty and interest, we would like to hear your opinion on any of these questions:</p>
+
+<ol>
+<li>What type of problem would you say that this is? Would you say that it is a hard problem?</li>
+<li>What benefits do you think such a system could give to Roger and Anita?</li>
+<li>How would you design the actual imaging system? (Lights, cameras, processing unit, positions, guiding of the dogs, etc.)</li>
+<li>How would you represent the spot pattern in a data-structure?</li>
+<li>If you are given the "ground truth" knowledge of all the puppies' spot patterns, names and information - How would you solve the identification problem?</li>
+<li>If you are given no prior. You don't even know how many puppies there are, only that they will normally pass three times a day - How would you approach the problem?</li>
+<li>What sources of noise and  uncertainty would you expect in an observation of the spot pattern?</li>
+<li>How would you design the user interface and front-end? Which use-cases would you design for?</li>
+<li>What additional data would you like to include and estimate?</li>
+</ol>
+
+<h2>
+<a id="spot-images" class="anchor" href="#spot-images" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Spot images</h2>
+
+<p>The puppies pass the camera normally three times a day to get food. 
+The camera system detect the shoulder part, and capture the spot pattern. 
+Each observation will carry noise, so each position and size might vary. 
+Some spots may not be detected at all. </p>
+
+<p>The first 7 puppies looks like this:</p>
+
+<p>Pongo</p>
+
+<p><img src="./population/001-Pongo.svg?raw=true" alt="Pongo" title="Pongo"></p>
+
+<p>Perdi</p>
+
+<p><img src="./population/002-Perdita.svg?raw=true" alt="Perdi" title="Perdi"></p>
+
+<p>Patch</p>
+
+<p><img src="./population/003-Patch.svg?raw=true" alt="Patch" title="Patch"></p>
+
+<p>Lucky</p>
+
+<p><img src="./population/004-Lucky.svg?raw=true" alt="Lucky" title="Lucky"></p>
+
+<p>Rolly</p>
+
+<p><img src="./population/005-Rolly.svg?raw=true" alt="Rolly" title="Rolly"></p>
+
+<p>Penny</p>
+
+<p><img src="./population/006-Penny.svg?raw=true" alt="Penny" title="Penny"></p>
+
+<p>Freckles</p>
+
+<p><img src="./population/007-Freckles.svg?raw=true" alt="Freckles" title="Freckles"></p>
+        </section>
+
+        <footer>
+          Dalmatian is maintained by <a href="https://github.com/trygveu">trygveu</a><br>
+          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
+    </div>
+  </body>
+</html>
